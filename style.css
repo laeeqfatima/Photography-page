@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white; 
+    font-family: 'Cinzel', serif;
+    
+}
+
+body{
+    overflow: hidden;
+    background: linear-gradient(0.25turn, #16222a, #3a6073, #3a6073, #16222a);
+    width: 100%;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 100px 100px 0;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 30px 50px;
+    
+}
+
+.logo h1{
+    position: relative;
+    font-size: 31px;
+    cursor: pointer;
+    
+}
+
+.menu img{
+    position: relative;
+    width: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    
+}
+
+.contact{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    padding: 25em 50px;
+    
+}
+
+.contact img{
+    filter: invert(1);
+    padding-bottom: 20px;
+    
+}
+
+.contact .fb{
+    width: 28px;
+}
+
+.contact .insta{
+    width: 33px;
+}
+
+.contact .twi{
+    position: relative;
+    width: 40px;
+    right: 2.5px;
+}
+
+.main-img{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    padding-left: 60px;
+
+}
+
+.main-img img{
+    width: 31%;
+    min-width: 200px;
+    min-height: 300px;
+    
+    
+}
+
+.text{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    left: 42%;
+    top: 20%;
+}
+
+.text h1{
+    position: relative;
+    width: 25%;
+    /*left: 37%;*/
+    font-size: 2.2em;
+    
+}
+
+.text h3{
+    position: relative;
+    width: 25%;
+    /*left: 37%;*/
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+.text p{
+    position: relative;
+    width: 50%;
+    /*left: 37%;*/
+    letter-spacing: 2px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+
+/*@media (min-width: 340px) {
+
+    .contact{
+        flex-direction: row;
+    }
+
+    .main-img img{
+        opacity: 0.5;
+    }
+}*/
