@@ -212,21 +212,21 @@ header{
     .text h1{
         position: relative;
         width: 80%;
-        right: 28%;
+        right: 32%;
         
     }
     
     .text h3{
         position: relative;
         width: 80%;
-        right: 28%;
+        right: 32%;
 
     }
     
     .text p{
         position: relative;
         width: 80%;
-        right: 28%;
+        right: 32%;
         text-align: left;
     }
 }
