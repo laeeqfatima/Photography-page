@@ -8,7 +8,7 @@
 }
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
     background: linear-gradient(0.25turn, #16222a, #3a6073, #3a6073, #16222a);
     width: 100%;
 }
@@ -49,6 +49,8 @@ header{
     
 }
 
+
+
 .contact{
     position: absolute;
     width: 100%;
@@ -57,7 +59,7 @@ header{
     flex-direction: column;
     top: 0;
     left: 0;
-    padding: 25em 50px;
+    padding: 15em 50px;
     
 }
 
@@ -78,7 +80,21 @@ header{
 .contact .twi{
     position: relative;
     width: 40px;
-    right: 2.5px;
+    right: 2.6px;
+}
+
+.contact .yt{
+    position: relative;
+    right: 7px;
+    bottom: 10px;
+    width: 50px;
+}
+
+.contact .li{
+    position: relative;
+    width: 30px;
+    left: 4px;
+    bottom: 15px;
 }
 
 .main-img{
@@ -92,6 +108,7 @@ header{
 .main-img img{
     width: 31%;
     min-width: 200px;
+    max-width: 500px;
     min-height: 300px;
     
     
@@ -131,13 +148,45 @@ header{
 }
 
 
-/*@media (min-width: 340px) {
+@media (min-width: 340px) and (max-width: 600px) {
 
+    
     .contact{
-        flex-direction: row;
+       display: none;
     }
 
     .main-img img{
-        opacity: 0.5;
+        display: none;
     }
-}*/
+
+    .text{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+
+    .text h1{
+        position: relative;
+        width: 80%;
+        right: 28%;
+        font-size: 2.2em;
+        
+    }
+    
+    .text h3{
+        position: relative;
+        width: 80%;
+        right: 28%;
+
+    }
+    
+    .text p{
+        position: relative;
+        width: 80%;
+        right: 28%;
+        text-align: left;
+    }
+}
