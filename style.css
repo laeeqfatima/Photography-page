@@ -148,7 +148,15 @@ header{
 }
 
 
+@media (min-width: 601px) and (max-width: 768px){
+
+}
+
 @media (min-width: 340px) and (max-width: 600px) {
+
+    body{
+        overflow: hidden;
+    }
 
     
     .contact{
